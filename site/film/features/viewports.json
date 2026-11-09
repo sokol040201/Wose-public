@@ -1,0 +1,114 @@
+{
+  "music": {
+    "sourceWidth": 1920,
+    "sourceHeight": 1080,
+    "x": 320,
+    "y": 164,
+    "w": 1280,
+    "h": 608
+  },
+  "focus": {
+    "sourceWidth": 1920,
+    "sourceHeight": 1080,
+    "x": 448,
+    "y": 164,
+    "w": 1024,
+    "h": 624
+  },
+  "day": {
+    "sourceWidth": 1920,
+    "sourceHeight": 1080,
+    "x": 448,
+    "y": 164,
+    "w": 1024,
+    "h": 624
+  },
+  "wellness": {
+    "sourceWidth": 1920,
+    "sourceHeight": 1080,
+    "x": 448,
+    "y": 164,
+    "w": 1024,
+    "h": 624
+  },
+  "shelf": {
+    "sourceWidth": 1920,
+    "sourceHeight": 1080,
+    "x": 448,
+    "y": 164,
+    "w": 1024,
+    "h": 624
+  },
+  "ai-usage": {
+    "sourceWidth": 1920,
+    "sourceHeight": 1080,
+    "x": 448,
+    "y": 164,
+    "w": 1024,
+    "h": 624
+  },
+  "agents": {
+    "sourceWidth": 1920,
+    "sourceHeight": 1080,
+    "x": 448,
+    "y": 164,
+    "w": 1024,
+    "h": 624
+  },
+  "mixer": {
+    "sourceWidth": 1920,
+    "sourceHeight": 1080,
+    "x": 448,
+    "y": 164,
+    "w": 1024,
+    "h": 624
+  },
+  "system": {
+    "sourceWidth": 1920,
+    "sourceHeight": 1080,
+    "x": 448,
+    "y": 164,
+    "w": 1024,
+    "h": 624
+  },
+  "notifications": {
+    "sourceWidth": 1920,
+    "sourceHeight": 1080,
+    "x": 416,
+    "y": 164,
+    "w": 1088,
+    "h": 656
+  },
+  "capture": {
+    "sourceWidth": 1280,
+    "sourceHeight": 800,
+    "x": 0,
+    "y": 0,
+    "w": 1280,
+    "h": 800
+  },
+  "appearance": {
+    "sourceWidth": 1920,
+    "sourceHeight": 1080,
+    "x": 416,
+    "y": 64,
+    "w": 1088,
+    "h": 944
+  },
+  "settings": {
+    "sourceWidth": 1920,
+    "sourceHeight": 1080,
+    "x": 416,
+    "y": 64,
+    "w": 1088,
+    "h": 944
+  },
+  "hero": {
+    "sourceWidth": 1920,
+    "sourceHeight": 1080,
+    "x": 288,
+    "y": 164,
+    "w": 1344,
+    "h": 696
+  }
+}

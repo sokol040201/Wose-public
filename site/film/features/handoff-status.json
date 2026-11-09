@@ -1,0 +1,23 @@
+{
+  "version": "0.7.2",
+  "ready": [
+    "music",
+    "focus",
+    "day",
+    "wellness",
+    "shelf",
+    "ai-usage",
+    "agents",
+    "mixer",
+    "system",
+    "notifications",
+    "capture",
+    "appearance",
+    "settings"
+  ],
+  "pending": {},
+  "heroReady": true,
+  "all13Native": true,
+  "serviceCaptionsRemoved": true,
+  "viewports": "viewports.json"
+}

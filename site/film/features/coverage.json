@@ -1,0 +1,280 @@
+{
+  "version": "0.7.2",
+  "nativeRenderer": true,
+  "fps": 30,
+  "durationSeconds": 8,
+  "audio": false,
+  "features": [
+    {
+      "id": "music",
+      "composition": "FeatureMusic",
+      "posterFrame": 204,
+      "covers": [
+        "Music",
+        "Lyrics",
+        "Play/pause",
+        "Seek",
+        "Volume"
+      ],
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "x": 320,
+      "y": 164,
+      "w": 1280,
+      "h": 608,
+      "file": "music.mp4",
+      "poster": "music.png",
+      "rendered": true,
+      "sizeBytes": 379835
+    },
+    {
+      "id": "focus",
+      "composition": "FeatureFocus",
+      "posterFrame": 204,
+      "covers": [
+        "Focus timer",
+        "Presets",
+        "Start/pause"
+      ],
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "x": 448,
+      "y": 164,
+      "w": 1024,
+      "h": 624,
+      "file": "focus.mp4",
+      "poster": "focus.png",
+      "rendered": true,
+      "sizeBytes": 71992
+    },
+    {
+      "id": "day",
+      "composition": "FeatureDay",
+      "posterFrame": 204,
+      "covers": [
+        "Calendar",
+        "Agenda",
+        "Scheduled tasks",
+        "Task completion"
+      ],
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "x": 448,
+      "y": 164,
+      "w": 1024,
+      "h": 624,
+      "file": "day.mp4",
+      "poster": "day.png",
+      "rendered": true,
+      "sizeBytes": 91834
+    },
+    {
+      "id": "wellness",
+      "composition": "FeatureWellness",
+      "posterFrame": 204,
+      "covers": [
+        "Water",
+        "Daily goal",
+        "Water timeline",
+        "Habits"
+      ],
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "x": 448,
+      "y": 164,
+      "w": 1024,
+      "h": 624,
+      "file": "wellness.mp4",
+      "poster": "wellness.png",
+      "rendered": true,
+      "sizeBytes": 80348
+    },
+    {
+      "id": "shelf",
+      "composition": "FeatureShelf",
+      "posterFrame": 204,
+      "covers": [
+        "File Shelf",
+        "Drag/drop",
+        "Clipboard text",
+        "Copy"
+      ],
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "x": 448,
+      "y": 164,
+      "w": 1024,
+      "h": 624,
+      "file": "shelf.mp4",
+      "poster": "shelf.png",
+      "rendered": true,
+      "sizeBytes": 193845
+    },
+    {
+      "id": "ai-usage",
+      "composition": "FeatureAiUsage",
+      "posterFrame": 204,
+      "covers": [
+        "Codex usage",
+        "Claude Code usage",
+        "Hourly tokens",
+        "Refresh"
+      ],
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "x": 448,
+      "y": 164,
+      "w": 1024,
+      "h": 624,
+      "file": "ai-usage.mp4",
+      "poster": "ai-usage.png",
+      "rendered": true,
+      "sizeBytes": 68795
+    },
+    {
+      "id": "agents",
+      "composition": "FeatureAgents",
+      "posterFrame": 204,
+      "covers": [
+        "Opt-in agent events",
+        "Codex",
+        "Claude Code",
+        "Cursor",
+        "Running/waiting/completed states"
+      ],
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "x": 448,
+      "y": 164,
+      "w": 1024,
+      "h": 624,
+      "file": "agents.mp4",
+      "poster": "agents.png",
+      "rendered": true,
+      "sizeBytes": 93238
+    },
+    {
+      "id": "mixer",
+      "composition": "FeatureMixer",
+      "posterFrame": 204,
+      "covers": [
+        "Core Audio master volume",
+        "Per-app volume",
+        "Output"
+      ],
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "x": 448,
+      "y": 164,
+      "w": 1024,
+      "h": 624,
+      "file": "mixer.mp4",
+      "poster": "mixer.png",
+      "rendered": true,
+      "sizeBytes": 62373
+    },
+    {
+      "id": "system",
+      "composition": "FeatureSystem",
+      "posterFrame": 204,
+      "covers": [
+        "Saved Wi-Fi connection",
+        "Power schemes"
+      ],
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "x": 448,
+      "y": 164,
+      "w": 1024,
+      "h": 624,
+      "file": "system.mp4",
+      "poster": "system.png",
+      "rendered": true,
+      "sizeBytes": 68446
+    },
+    {
+      "id": "notifications",
+      "composition": "FeatureNotifications",
+      "posterFrame": 204,
+      "covers": [
+        "Notifications",
+        "Bluetooth status",
+        "Battery",
+        "Keyboard layout"
+      ],
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "x": 416,
+      "y": 164,
+      "w": 1088,
+      "h": 656,
+      "file": "notifications.mp4",
+      "poster": "notifications.png",
+      "rendered": true,
+      "sizeBytes": 128131
+    },
+    {
+      "id": "capture",
+      "composition": "FeatureCapture",
+      "posterFrame": 204,
+      "covers": [
+        "Area capture mode",
+        "Window capture mode",
+        "Eight window cards with icons and titles",
+        "Display capture mode",
+        "Native crosshair and dimensions",
+        "Native keyboard hints"
+      ],
+      "sourceWidth": 1280,
+      "sourceHeight": 800,
+      "x": 0,
+      "y": 0,
+      "w": 1280,
+      "h": 800,
+      "file": "capture.mp4",
+      "poster": "capture.png",
+      "rendered": true,
+      "sizeBytes": 448416
+    },
+    {
+      "id": "appearance",
+      "composition": "FeatureAppearance",
+      "posterFrame": 234,
+      "covers": [
+        "4 eye shapes",
+        "12 available palettes",
+        "Eye/contour glow"
+      ],
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "x": 416,
+      "y": 64,
+      "w": 1088,
+      "h": 944,
+      "file": "appearance.mp4",
+      "poster": "appearance.png",
+      "rendered": true,
+      "sizeBytes": 934084
+    },
+    {
+      "id": "settings",
+      "composition": "FeatureSettings",
+      "posterFrame": 234,
+      "covers": [
+        "Display selection",
+        "Auto/RU/EN language",
+        "Autostart"
+      ],
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "x": 416,
+      "y": 64,
+      "w": 1088,
+      "h": 944,
+      "file": "settings.mp4",
+      "poster": "settings.png",
+      "rendered": true,
+      "sizeBytes": 1172667
+    }
+  ]
+}
