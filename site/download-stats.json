@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T01:14:57.047Z",
+  "generatedAt": "2026-11-09T02:18:44.463Z",
   "source": {
     "repository": "sokol040201/Wose-public",
     "url": "https://github.com/sokol040201/Wose-public/releases",
     "metric": "GitHub release asset download_count"
   },
-  "appDownloads": 0
+  "appDownloads": 2
 }
