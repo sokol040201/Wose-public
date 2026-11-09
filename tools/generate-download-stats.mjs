@@ -2,7 +2,7 @@ import { mkdir, rename, unlink, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 
-const appZip = /^Wose(?:-v?\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?)?-windows-x64\.zip$/;
+const appAsset = /^Wose(?:-v?\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?)?-windows-x64\.(?:zip|exe)$/;
 
 function validateRepository(repository) {
   if (typeof repository !== 'string' || !/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(repository)) {
@@ -36,7 +36,7 @@ export function summarizeReleases(releases, generatedAt, repository) {
   for (const release of releases) {
     if (release.draft) continue;
     for (const asset of release.assets) {
-      if (!appZip.test(asset.name)) continue;
+      if (!appAsset.test(asset.name)) continue;
       appDownloads += asset.download_count;
       if (!Number.isSafeInteger(appDownloads)) throw new Error('Download total exceeds the safe integer range');
     }
