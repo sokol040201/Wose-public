@@ -1,8 +1,8 @@
 [
   {
     "id": "music",
-    "nativeAppVersion": "0.9.6",
-    "revision": "2026-11-10-ui-v1",
+    "nativeAppVersion": "0.9.10",
+    "revision": "2026-11-10-settings-polish-v2",
     "width": 1920,
     "height": 1080,
     "fps": 30,
@@ -13,12 +13,12 @@
     "colorRange": "tv",
     "colorSpace": "bt709",
     "audio": false,
-    "sha256": "98bf8f541efb7972d93b5756f3a53f344e514befb8f4b210f50af59bf9eda743"
+    "sha256": "49feb891f34c7372adb2ef74808009d327d4dd5cb83f29ff5d0884b35a40f4dd"
   },
   {
     "id": "focus",
-    "nativeAppVersion": "0.9.6",
-    "revision": "2026-11-10-ui-v1",
+    "nativeAppVersion": "0.9.10",
+    "revision": "2026-11-10-settings-polish-v2",
     "width": 1920,
     "height": 1080,
     "fps": 30,
@@ -29,12 +29,12 @@
     "colorRange": "tv",
     "colorSpace": "bt709",
     "audio": false,
-    "sha256": "32644e37630526a12da50e2f84f5bdea886a56a81cd05afa8d59e555d5a47575"
+    "sha256": "8ae1cea00b5f3eed2040ab768f4d55dc396768972d10848254be9007196f2905"
   },
   {
     "id": "day",
-    "nativeAppVersion": "0.9.6",
-    "revision": "2026-11-10-ui-v1",
+    "nativeAppVersion": "0.9.10",
+    "revision": "2026-11-10-settings-polish-v2",
     "width": 1920,
     "height": 1080,
     "fps": 30,
@@ -45,12 +45,12 @@
     "colorRange": "tv",
     "colorSpace": "bt709",
     "audio": false,
-    "sha256": "51d0d71c244971460460b677059552a3f39356e7733ee35bc4a90c918cdd0a88"
+    "sha256": "df8c2088f6823b6285bdcd68d6ba7501398ba6d086a9aa39b5f496783ee55de1"
   },
   {
     "id": "wellness",
-    "nativeAppVersion": "0.9.6",
-    "revision": "2026-11-10-ui-v1",
+    "nativeAppVersion": "0.9.10",
+    "revision": "2026-11-10-settings-polish-v2",
     "width": 1920,
     "height": 1080,
     "fps": 30,
@@ -61,12 +61,12 @@
     "colorRange": "tv",
     "colorSpace": "bt709",
     "audio": false,
-    "sha256": "742fe6a515975f71e62f038fb863ece5e73f35c5de014296b56806385ba939a2"
+    "sha256": "bcfa5e28f589ce8b3ed0495278ecb3b1499b43103d42467cb941148bce9b0b85"
   },
   {
     "id": "shelf",
-    "nativeAppVersion": "0.9.6",
-    "revision": "2026-11-10-ui-v1",
+    "nativeAppVersion": "0.9.10",
+    "revision": "2026-11-10-settings-polish-v2",
     "width": 1920,
     "height": 1080,
     "fps": 30,
@@ -77,12 +77,12 @@
     "colorRange": "tv",
     "colorSpace": "bt709",
     "audio": false,
-    "sha256": "b351fff1880046660522d6507f90c6e8a0ac451492f51db1ffdc4e92b0061279"
+    "sha256": "163775670af9c9001509b5177bd9a75c28f849768ab81bb2a016a7fd06996ce8"
   },
   {
     "id": "ai-usage",
-    "nativeAppVersion": "0.9.6",
-    "revision": "2026-11-10-ui-v1",
+    "nativeAppVersion": "0.9.10",
+    "revision": "2026-11-10-settings-polish-v2",
     "width": 1920,
     "height": 1080,
     "fps": 30,
@@ -97,8 +97,8 @@
   },
   {
     "id": "agents",
-    "nativeAppVersion": "0.9.6",
-    "revision": "2026-11-10-ui-v1",
+    "nativeAppVersion": "0.9.10",
+    "revision": "2026-11-10-settings-polish-v2",
     "width": 1920,
     "height": 1080,
     "fps": 30,
@@ -109,12 +109,12 @@
     "colorRange": "tv",
     "colorSpace": "bt709",
     "audio": false,
-    "sha256": "dc29b829dda872cb446a562e45f0a3c363a0969629bee919b594634474880916"
+    "sha256": "66437ce3e71a5bd7a5f1fc175ea8e6acef15840df9c21e766e7b64030890092a"
   },
   {
     "id": "mixer",
-    "nativeAppVersion": "0.9.6",
-    "revision": "2026-11-10-ui-v1",
+    "nativeAppVersion": "0.9.10",
+    "revision": "2026-11-10-settings-polish-v2",
     "width": 1920,
     "height": 1080,
     "fps": 30,
@@ -129,8 +129,8 @@
   },
   {
     "id": "system",
-    "nativeAppVersion": "0.9.6",
-    "revision": "2026-11-10-ui-v1",
+    "nativeAppVersion": "0.9.10",
+    "revision": "2026-11-10-settings-polish-v2",
     "width": 1920,
     "height": 1080,
     "fps": 30,
@@ -145,8 +145,8 @@
   },
   {
     "id": "notifications",
-    "nativeAppVersion": "0.9.6",
-    "revision": "2026-11-10-ui-v1",
+    "nativeAppVersion": "0.9.10",
+    "revision": "2026-11-10-settings-polish-v2",
     "width": 1920,
     "height": 1080,
     "fps": 30,
@@ -161,8 +161,8 @@
   },
   {
     "id": "capture",
-    "nativeAppVersion": "0.9.6",
-    "revision": "2026-11-10-ui-v1",
+    "nativeAppVersion": "0.9.10",
+    "revision": "2026-11-10-settings-polish-v2",
     "width": 1280,
     "height": 800,
     "fps": 30,
@@ -177,8 +177,8 @@
   },
   {
     "id": "appearance",
-    "nativeAppVersion": "0.9.6",
-    "revision": "2026-11-10-ui-v1",
+    "nativeAppVersion": "0.9.10",
+    "revision": "2026-11-10-settings-polish-v2",
     "width": 1920,
     "height": 1080,
     "fps": 30,
@@ -189,12 +189,12 @@
     "colorRange": "tv",
     "colorSpace": "bt709",
     "audio": false,
-    "sha256": "263f0a53e9104f610846de3cc4e7140c6a97ce8f991e2184e975d42f1951fcb1"
+    "sha256": "64e8d2d5500825e0f0b4718924e077c75636acfb415d77a8561d6dac86343b5c"
   },
   {
     "id": "settings",
-    "nativeAppVersion": "0.9.6",
-    "revision": "2026-11-10-ui-v1",
+    "nativeAppVersion": "0.9.10",
+    "revision": "2026-11-10-settings-polish-v2",
     "width": 1920,
     "height": 1080,
     "fps": 30,
@@ -205,12 +205,12 @@
     "colorRange": "tv",
     "colorSpace": "bt709",
     "audio": false,
-    "sha256": "979997a3d504bfe5958d91a513f7cf1b0b6bce637fdbad0dabadd999df4a0bd9"
+    "sha256": "b0d438f2338b6ef70ed983e75c089433722defa1bae010157b971727f52ee01a"
   },
   {
     "id": "bluetooth",
-    "nativeAppVersion": "0.9.6",
-    "revision": "2026-11-10-ui-v1",
+    "nativeAppVersion": "0.9.10",
+    "revision": "2026-11-10-settings-polish-v2",
     "width": 1920,
     "height": 1080,
     "fps": 30,
@@ -225,8 +225,8 @@
   },
   {
     "id": "profiles",
-    "nativeAppVersion": "0.9.6",
-    "revision": "2026-11-10-ui-v1",
+    "nativeAppVersion": "0.9.10",
+    "revision": "2026-11-10-settings-polish-v2",
     "width": 1920,
     "height": 1080,
     "fps": 30,
@@ -237,12 +237,12 @@
     "colorRange": "tv",
     "colorSpace": "bt709",
     "audio": false,
-    "sha256": "aef864e838a07023e60a37739e5cda9556b9c5a2b0b4279a71c515e8232c907b"
+    "sha256": "7c899467f152e2cdf578475b57ff0b8ca9d34f71270bb7a0239858a59f3bf622"
   },
   {
     "id": "updates",
-    "nativeAppVersion": "0.9.6",
-    "revision": "2026-11-10-ui-v1",
+    "nativeAppVersion": "0.9.10",
+    "revision": "2026-11-10-settings-polish-v2",
     "width": 1920,
     "height": 1080,
     "fps": 30,
@@ -253,6 +253,6 @@
     "colorRange": "tv",
     "colorSpace": "bt709",
     "audio": false,
-    "sha256": "da3746099af1b728fb22ae04441e2fa79534bdd1a5b58287fcce7e1aee9735dc"
+    "sha256": "3b771845fb7be6bd3d619621827f45d91cc27c75a80da63d6e14a77a0f3666e8"
   }
 ]
