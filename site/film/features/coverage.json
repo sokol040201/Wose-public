@@ -1,9 +1,16 @@
 {
-  "version": "0.7.2",
-  "nativeRenderer": true,
+  "width": 1920,
+  "height": 1080,
   "fps": 30,
   "durationSeconds": 8,
+  "frames": 240,
   "audio": false,
+  "codec": "h264",
+  "pixelFormat": "yuv420p",
+  "colorRange": "tv",
+  "colorSpace": "bt709",
+  "background": "#08090c",
+  "siteDestination": "site/public/film/features/",
   "features": [
     {
       "id": "music",
@@ -18,14 +25,10 @@
       ],
       "sourceWidth": 1920,
       "sourceHeight": 1080,
-      "x": 320,
-      "y": 164,
-      "w": 1280,
-      "h": 608,
       "file": "music.mp4",
       "poster": "music.png",
       "rendered": true,
-      "sizeBytes": 379835
+      "sizeBytes": 390261
     },
     {
       "id": "focus",
@@ -38,14 +41,10 @@
       ],
       "sourceWidth": 1920,
       "sourceHeight": 1080,
-      "x": 448,
-      "y": 164,
-      "w": 1024,
-      "h": 624,
       "file": "focus.mp4",
       "poster": "focus.png",
       "rendered": true,
-      "sizeBytes": 71992
+      "sizeBytes": 86542
     },
     {
       "id": "day",
@@ -59,14 +58,10 @@
       ],
       "sourceWidth": 1920,
       "sourceHeight": 1080,
-      "x": 448,
-      "y": 164,
-      "w": 1024,
-      "h": 624,
       "file": "day.mp4",
       "poster": "day.png",
       "rendered": true,
-      "sizeBytes": 91834
+      "sizeBytes": 91763
     },
     {
       "id": "wellness",
@@ -80,14 +75,10 @@
       ],
       "sourceWidth": 1920,
       "sourceHeight": 1080,
-      "x": 448,
-      "y": 164,
-      "w": 1024,
-      "h": 624,
       "file": "wellness.mp4",
       "poster": "wellness.png",
       "rendered": true,
-      "sizeBytes": 80348
+      "sizeBytes": 83776
     },
     {
       "id": "shelf",
@@ -95,20 +86,16 @@
       "posterFrame": 204,
       "covers": [
         "File Shelf",
-        "Drag/drop",
-        "Clipboard text",
-        "Copy"
+        "List and card views",
+        "Drag/drop glow and ripple",
+        "Clipboard text and files"
       ],
       "sourceWidth": 1920,
       "sourceHeight": 1080,
-      "x": 448,
-      "y": 164,
-      "w": 1024,
-      "h": 624,
       "file": "shelf.mp4",
       "poster": "shelf.png",
       "rendered": true,
-      "sizeBytes": 193845
+      "sizeBytes": 221724
     },
     {
       "id": "ai-usage",
@@ -122,36 +109,28 @@
       ],
       "sourceWidth": 1920,
       "sourceHeight": 1080,
-      "x": 448,
-      "y": 164,
-      "w": 1024,
-      "h": 624,
       "file": "ai-usage.mp4",
       "poster": "ai-usage.png",
       "rendered": true,
-      "sizeBytes": 68795
+      "sizeBytes": 72485
     },
     {
       "id": "agents",
       "composition": "FeatureAgents",
       "posterFrame": 204,
       "covers": [
-        "Opt-in agent events",
-        "Codex",
-        "Claude Code",
-        "Cursor",
-        "Running/waiting/completed states"
+        "Codex / Claude Code / Cursor states",
+        "Native working spinner",
+        "Waiting / completed states",
+        "Unread badges",
+        "Open saved Codex chat"
       ],
       "sourceWidth": 1920,
       "sourceHeight": 1080,
-      "x": 448,
-      "y": 164,
-      "w": 1024,
-      "h": 624,
       "file": "agents.mp4",
       "poster": "agents.png",
       "rendered": true,
-      "sizeBytes": 93238
+      "sizeBytes": 75350
     },
     {
       "id": "mixer",
@@ -164,14 +143,10 @@
       ],
       "sourceWidth": 1920,
       "sourceHeight": 1080,
-      "x": 448,
-      "y": 164,
-      "w": 1024,
-      "h": 624,
       "file": "mixer.mp4",
       "poster": "mixer.png",
       "rendered": true,
-      "sizeBytes": 62373
+      "sizeBytes": 64579
     },
     {
       "id": "system",
@@ -183,14 +158,10 @@
       ],
       "sourceWidth": 1920,
       "sourceHeight": 1080,
-      "x": 448,
-      "y": 164,
-      "w": 1024,
-      "h": 624,
       "file": "system.mp4",
       "poster": "system.png",
       "rendered": true,
-      "sizeBytes": 68446
+      "sizeBytes": 97861
     },
     {
       "id": "notifications",
@@ -204,14 +175,10 @@
       ],
       "sourceWidth": 1920,
       "sourceHeight": 1080,
-      "x": 416,
-      "y": 164,
-      "w": 1088,
-      "h": 656,
       "file": "notifications.mp4",
       "poster": "notifications.png",
       "rendered": true,
-      "sizeBytes": 128131
+      "sizeBytes": 129825
     },
     {
       "id": "capture",
@@ -227,14 +194,10 @@
       ],
       "sourceWidth": 1280,
       "sourceHeight": 800,
-      "x": 0,
-      "y": 0,
-      "w": 1280,
-      "h": 800,
       "file": "capture.mp4",
       "poster": "capture.png",
       "rendered": true,
-      "sizeBytes": 448416
+      "sizeBytes": 468034
     },
     {
       "id": "appearance",
@@ -247,14 +210,10 @@
       ],
       "sourceWidth": 1920,
       "sourceHeight": 1080,
-      "x": 416,
-      "y": 64,
-      "w": 1088,
-      "h": 944,
       "file": "appearance.mp4",
       "poster": "appearance.png",
       "rendered": true,
-      "sizeBytes": 934084
+      "sizeBytes": 656510
     },
     {
       "id": "settings",
@@ -267,14 +226,62 @@
       ],
       "sourceWidth": 1920,
       "sourceHeight": 1080,
-      "x": 416,
-      "y": 64,
-      "w": 1088,
-      "h": 944,
       "file": "settings.mp4",
       "poster": "settings.png",
       "rendered": true,
-      "sizeBytes": 1172667
+      "sizeBytes": 917251
+    },
+    {
+      "id": "bluetooth",
+      "composition": "FeatureBluetooth",
+      "posterFrame": 204,
+      "covers": [
+        "Paired devices",
+        "Connection state",
+        "Device status updates"
+      ],
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "file": "bluetooth.mp4",
+      "poster": "bluetooth.png",
+      "rendered": true,
+      "sizeBytes": 64231
+    },
+    {
+      "id": "profiles",
+      "composition": "FeatureProfiles",
+      "posterFrame": 204,
+      "covers": [
+        "Free profiles",
+        "Save",
+        "Apply",
+        "Rename"
+      ],
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "file": "profiles.mp4",
+      "poster": "profiles.png",
+      "rendered": true,
+      "sizeBytes": 728166
+    },
+    {
+      "id": "updates",
+      "composition": "FeatureUpdates",
+      "posterFrame": 204,
+      "covers": [
+        "Check GitHub Releases",
+        "Download signed EXE",
+        "Manual install and restart",
+        "Preserve data"
+      ],
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "file": "updates.mp4",
+      "poster": "updates.png",
+      "rendered": true,
+      "sizeBytes": 802798
     }
-  ]
+  ],
+  "nativeAppVersion": "0.9.6",
+  "revision": "2026-11-10-ui-v1"
 }

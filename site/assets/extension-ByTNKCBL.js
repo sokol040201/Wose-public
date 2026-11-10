@@ -1,0 +1,1 @@
+import{a as e,n as t,t as n}from"./ExtensionFilm-Dm0IL8FC.js";var r=e(),i=t(),a=document.getElementById(`extension-install-film`);a&&(0,r.createRoot)(a).render((0,i.jsx)(n,{kind:`installation`}));

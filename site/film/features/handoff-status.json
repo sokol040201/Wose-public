@@ -1,5 +1,6 @@
 {
-  "version": "0.7.2",
+  "version": "0.9.6",
+  "revision": "2026-11-10-ui-v1",
   "ready": [
     "music",
     "focus",
@@ -13,11 +14,14 @@
     "notifications",
     "capture",
     "appearance",
-    "settings"
+    "settings",
+    "bluetooth",
+    "profiles",
+    "updates"
   ],
   "pending": {},
   "heroReady": true,
-  "all13Native": true,
-  "serviceCaptionsRemoved": true,
-  "viewports": "viewports.json"
+  "all16Native": true,
+  "viewports": "viewports.json",
+  "heroSha256": "92bd60f591303ea4e316e6b4059d964a8fa66933322b4088ddd6d7f08f85c8b9"
 }

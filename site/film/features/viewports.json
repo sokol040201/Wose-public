@@ -110,5 +110,29 @@
     "y": 164,
     "w": 1344,
     "h": 696
+  },
+  "bluetooth": {
+    "sourceWidth": 1920,
+    "sourceHeight": 1080,
+    "x": 448,
+    "y": 164,
+    "w": 1024,
+    "h": 624
+  },
+  "profiles": {
+    "sourceWidth": 1920,
+    "sourceHeight": 1080,
+    "x": 416,
+    "y": 64,
+    "w": 1088,
+    "h": 944
+  },
+  "updates": {
+    "sourceWidth": 1920,
+    "sourceHeight": 1080,
+    "x": 416,
+    "y": 64,
+    "w": 1088,
+    "h": 944
   }
 }
