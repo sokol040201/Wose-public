@@ -1,0 +1,495 @@
+{
+  "formatVersion": 1,
+  "source": "site/package-lock.json",
+  "scope": "Locked non-dev dependency graph; includes type-only and currently unused packages, not a browser bundle manifest.",
+  "packageCount": 34,
+  "noticeFileCount": 36,
+  "packages": [
+    {
+      "name": "@heroicons/react",
+      "version": "2.2.0",
+      "license": "MIT",
+      "source": "https://github.com/tailwindlabs/heroicons.git",
+      "path": "node_modules/@heroicons/react",
+      "files": [
+        {
+          "path": "node_modules/@heroicons/react/LICENSE",
+          "bytes": 1071,
+          "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985"
+        }
+      ]
+    },
+    {
+      "name": "@radix-ui/primitive",
+      "version": "1.2.0",
+      "license": "MIT",
+      "source": "git+https://github.com/radix-ui/primitives.git",
+      "path": "node_modules/@radix-ui/primitive",
+      "files": [
+        {
+          "path": "node_modules/@radix-ui/primitive/LICENSE",
+          "bytes": 1063,
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ]
+    },
+    {
+      "name": "@radix-ui/react-accordion",
+      "version": "1.3.1",
+      "license": "MIT",
+      "source": "git+https://github.com/radix-ui/primitives.git",
+      "path": "node_modules/@radix-ui/react-accordion",
+      "files": [
+        {
+          "path": "node_modules/@radix-ui/react-accordion/LICENSE",
+          "bytes": 1063,
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ]
+    },
+    {
+      "name": "@radix-ui/react-collapsible",
+      "version": "1.2.1",
+      "license": "MIT",
+      "source": "git+https://github.com/radix-ui/primitives.git",
+      "path": "node_modules/@radix-ui/react-collapsible",
+      "files": [
+        {
+          "path": "node_modules/@radix-ui/react-collapsible/LICENSE",
+          "bytes": 1063,
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ]
+    },
+    {
+      "name": "@radix-ui/react-collection",
+      "version": "1.2.0",
+      "license": "MIT",
+      "source": "git+https://github.com/radix-ui/primitives.git",
+      "path": "node_modules/@radix-ui/react-collection",
+      "files": [
+        {
+          "path": "node_modules/@radix-ui/react-collection/LICENSE",
+          "bytes": 1063,
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ]
+    },
+    {
+      "name": "@radix-ui/react-compose-refs",
+      "version": "1.1.5",
+      "license": "MIT",
+      "source": "git+https://github.com/radix-ui/primitives.git",
+      "path": "node_modules/@radix-ui/react-compose-refs",
+      "files": [
+        {
+          "path": "node_modules/@radix-ui/react-compose-refs/LICENSE",
+          "bytes": 1063,
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ]
+    },
+    {
+      "name": "@radix-ui/react-context",
+      "version": "1.3.0",
+      "license": "MIT",
+      "source": "git+https://github.com/radix-ui/primitives.git",
+      "path": "node_modules/@radix-ui/react-context",
+      "files": [
+        {
+          "path": "node_modules/@radix-ui/react-context/LICENSE",
+          "bytes": 1063,
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ]
+    },
+    {
+      "name": "@radix-ui/react-direction",
+      "version": "1.2.0",
+      "license": "MIT",
+      "source": "git+https://github.com/radix-ui/primitives.git",
+      "path": "node_modules/@radix-ui/react-direction",
+      "files": [
+        {
+          "path": "node_modules/@radix-ui/react-direction/LICENSE",
+          "bytes": 1063,
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ]
+    },
+    {
+      "name": "@radix-ui/react-id",
+      "version": "1.1.4",
+      "license": "MIT",
+      "source": "git+https://github.com/radix-ui/primitives.git",
+      "path": "node_modules/@radix-ui/react-id",
+      "files": [
+        {
+          "path": "node_modules/@radix-ui/react-id/LICENSE",
+          "bytes": 1063,
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ]
+    },
+    {
+      "name": "@radix-ui/react-presence",
+      "version": "1.1.11",
+      "license": "MIT",
+      "source": "git+https://github.com/radix-ui/primitives.git",
+      "path": "node_modules/@radix-ui/react-presence",
+      "files": [
+        {
+          "path": "node_modules/@radix-ui/react-presence/LICENSE",
+          "bytes": 1063,
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ]
+    },
+    {
+      "name": "@radix-ui/react-primitive",
+      "version": "2.2.0",
+      "license": "MIT",
+      "source": "git+https://github.com/radix-ui/primitives.git",
+      "path": "node_modules/@radix-ui/react-primitive",
+      "files": [
+        {
+          "path": "node_modules/@radix-ui/react-primitive/LICENSE",
+          "bytes": 1063,
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ]
+    },
+    {
+      "name": "@radix-ui/react-roving-focus",
+      "version": "1.2.1",
+      "license": "MIT",
+      "source": "git+https://github.com/radix-ui/primitives.git",
+      "path": "node_modules/@radix-ui/react-roving-focus",
+      "files": [
+        {
+          "path": "node_modules/@radix-ui/react-roving-focus/LICENSE",
+          "bytes": 1063,
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ]
+    },
+    {
+      "name": "@radix-ui/react-slot",
+      "version": "1.5.0",
+      "license": "MIT",
+      "source": "git+https://github.com/radix-ui/primitives.git",
+      "path": "node_modules/@radix-ui/react-slot",
+      "files": [
+        {
+          "path": "node_modules/@radix-ui/react-slot/LICENSE",
+          "bytes": 1063,
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ]
+    },
+    {
+      "name": "@radix-ui/react-tabs",
+      "version": "1.2.1",
+      "license": "MIT",
+      "source": "git+https://github.com/radix-ui/primitives.git",
+      "path": "node_modules/@radix-ui/react-tabs",
+      "files": [
+        {
+          "path": "node_modules/@radix-ui/react-tabs/LICENSE",
+          "bytes": 1063,
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ]
+    },
+    {
+      "name": "@radix-ui/react-use-callback-ref",
+      "version": "1.1.5",
+      "license": "MIT",
+      "source": "git+https://github.com/radix-ui/primitives.git",
+      "path": "node_modules/@radix-ui/react-use-callback-ref",
+      "files": [
+        {
+          "path": "node_modules/@radix-ui/react-use-callback-ref/LICENSE",
+          "bytes": 1063,
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ]
+    },
+    {
+      "name": "@radix-ui/react-use-controllable-state",
+      "version": "1.3.0",
+      "license": "MIT",
+      "source": "git+https://github.com/radix-ui/primitives.git",
+      "path": "node_modules/@radix-ui/react-use-controllable-state",
+      "files": [
+        {
+          "path": "node_modules/@radix-ui/react-use-controllable-state/LICENSE",
+          "bytes": 1063,
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ]
+    },
+    {
+      "name": "@radix-ui/react-use-effect-event",
+      "version": "0.0.5",
+      "license": "MIT",
+      "source": "git+https://github.com/radix-ui/primitives.git",
+      "path": "node_modules/@radix-ui/react-use-effect-event",
+      "files": [
+        {
+          "path": "node_modules/@radix-ui/react-use-effect-event/LICENSE",
+          "bytes": 1063,
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ]
+    },
+    {
+      "name": "@radix-ui/react-use-is-hydrated",
+      "version": "0.1.3",
+      "license": "MIT",
+      "source": "git+https://github.com/radix-ui/primitives.git",
+      "path": "node_modules/@radix-ui/react-use-is-hydrated",
+      "files": [
+        {
+          "path": "node_modules/@radix-ui/react-use-is-hydrated/LICENSE",
+          "bytes": 1063,
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ]
+    },
+    {
+      "name": "@radix-ui/react-use-layout-effect",
+      "version": "1.1.4",
+      "license": "MIT",
+      "source": "git+https://github.com/radix-ui/primitives.git",
+      "path": "node_modules/@radix-ui/react-use-layout-effect",
+      "files": [
+        {
+          "path": "node_modules/@radix-ui/react-use-layout-effect/LICENSE",
+          "bytes": 1063,
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ]
+    },
+    {
+      "name": "@remotion/player",
+      "version": "4.0.541",
+      "license": "SEE LICENSE IN LICENSE.md",
+      "source": "https://github.com/remotion-dev/remotion/tree/main/packages/player",
+      "path": "node_modules/@remotion/player",
+      "files": [
+        {
+          "path": "node_modules/@remotion/player/LICENSE.md",
+          "bytes": 2823,
+          "sha256": "bd65083b940f61904f6ef298aade918a7cad72a3e35bc406e36fab365844b673"
+        }
+      ]
+    },
+    {
+      "name": "@types/react",
+      "version": "19.3.0",
+      "license": "MIT",
+      "source": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "path": "node_modules/@types/react",
+      "files": [
+        {
+          "path": "node_modules/@types/react/LICENSE",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ]
+    },
+    {
+      "name": "@types/react-dom",
+      "version": "19.3.0",
+      "license": "MIT",
+      "source": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "path": "node_modules/@types/react-dom",
+      "files": [
+        {
+          "path": "node_modules/@types/react-dom/LICENSE",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ]
+    },
+    {
+      "name": "clsx",
+      "version": "2.1.1",
+      "license": "MIT",
+      "source": "lukeed/clsx",
+      "path": "node_modules/clsx",
+      "files": [
+        {
+          "path": "node_modules/clsx/license",
+          "bytes": 1104,
+          "sha256": "9a9edad7baae52622bddf3c15b2ef8a33d2c89f2d25408ad13e8a7481c6b0c97"
+        }
+      ]
+    },
+    {
+      "name": "csstype",
+      "version": "3.2.3",
+      "license": "MIT",
+      "source": "https://github.com/frenic/csstype",
+      "path": "node_modules/csstype",
+      "files": [
+        {
+          "path": "node_modules/csstype/LICENSE",
+          "bytes": 1062,
+          "sha256": "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e"
+        }
+      ]
+    },
+    {
+      "name": "framer-motion",
+      "version": "14.10.1",
+      "license": "MIT",
+      "source": "https://github.com/motiondivision/motion/",
+      "path": "node_modules/framer-motion",
+      "files": [
+        {
+          "path": "node_modules/framer-motion/LICENSE.md",
+          "bytes": 1078,
+          "sha256": "5ff46083b88563822b0560dd6221ab89d2f74bc97a52d4c97a75020fd62c6f32"
+        }
+      ]
+    },
+    {
+      "name": "motion",
+      "version": "14.10.1",
+      "license": "MIT",
+      "source": "https://github.com/motiondivision/motion",
+      "path": "node_modules/motion",
+      "files": [
+        {
+          "path": "node_modules/motion/LICENSE.md",
+          "bytes": 1100,
+          "sha256": "1bf0dc3f7727723e5a032ed12164a47cf92c05204cb1a3485f123c24e2833ed1"
+        }
+      ]
+    },
+    {
+      "name": "motion-dom",
+      "version": "14.10.1",
+      "license": "MIT",
+      "source": "https://github.com/motiondivision/motion",
+      "path": "node_modules/motion-dom",
+      "files": [
+        {
+          "path": "node_modules/motion-dom/LICENSE.md",
+          "bytes": 1100,
+          "sha256": "1bf0dc3f7727723e5a032ed12164a47cf92c05204cb1a3485f123c24e2833ed1"
+        }
+      ]
+    },
+    {
+      "name": "motion-utils",
+      "version": "14.7.0",
+      "license": "MIT",
+      "source": "https://github.com/motiondivision/motion",
+      "path": "node_modules/motion-utils",
+      "files": [
+        {
+          "path": "node_modules/motion-utils/LICENSE.md",
+          "bytes": 1100,
+          "sha256": "1bf0dc3f7727723e5a032ed12164a47cf92c05204cb1a3485f123c24e2833ed1"
+        }
+      ]
+    },
+    {
+      "name": "react",
+      "version": "19.3.1",
+      "license": "MIT",
+      "source": "https://github.com/react/react.git",
+      "path": "node_modules/react",
+      "files": [
+        {
+          "path": "node_modules/react/LICENSE",
+          "bytes": 1088,
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ]
+    },
+    {
+      "name": "react-dom",
+      "version": "19.3.1",
+      "license": "MIT",
+      "source": "https://github.com/react/react.git",
+      "path": "node_modules/react-dom",
+      "files": [
+        {
+          "path": "node_modules/react-dom/LICENSE",
+          "bytes": 1088,
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ]
+    },
+    {
+      "name": "remotion",
+      "version": "4.0.541",
+      "license": "SEE LICENSE IN LICENSE.md",
+      "source": "https://github.com/remotion-dev/remotion/tree/main/packages/core",
+      "path": "node_modules/remotion",
+      "files": [
+        {
+          "path": "node_modules/remotion/LICENSE.md",
+          "bytes": 2823,
+          "sha256": "bd65083b940f61904f6ef298aade918a7cad72a3e35bc406e36fab365844b673"
+        },
+        {
+          "path": "node_modules/remotion/THIRD_PARTY_LICENSES.md",
+          "bytes": 1255,
+          "sha256": "b643dd255291602f7c60cca4dbd203a1aaa2c2961227d23ab7a6a5e1de2c8a2b"
+        }
+      ]
+    },
+    {
+      "name": "scheduler",
+      "version": "0.28.0",
+      "license": "MIT",
+      "source": "https://github.com/react/react.git",
+      "path": "node_modules/scheduler",
+      "files": [
+        {
+          "path": "node_modules/scheduler/LICENSE",
+          "bytes": 1088,
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ]
+    },
+    {
+      "name": "tailwind-merge",
+      "version": "3.7.0",
+      "license": "MIT",
+      "source": "https://github.com/dcastil/tailwind-merge.git",
+      "path": "node_modules/tailwind-merge",
+      "files": [
+        {
+          "path": "node_modules/tailwind-merge/LICENSE.md",
+          "bytes": 1070,
+          "sha256": "d4c70c7ce38cea8778f0aed3fc0bef0a9dbd27f13bd8b6773cbd6d37941971e5"
+        }
+      ]
+    },
+    {
+      "name": "tslib",
+      "version": "2.9.1",
+      "license": "0BSD",
+      "source": "https://github.com/Microsoft/tslib.git",
+      "path": "node_modules/tslib",
+      "files": [
+        {
+          "path": "node_modules/tslib/CopyrightNotice.txt",
+          "bytes": 822,
+          "sha256": "da16ddb65f8ca390998fb99223d0112498b56b45784d00afd77ff8ce1ac4de8b"
+        },
+        {
+          "path": "node_modules/tslib/LICENSE.txt",
+          "bytes": 655,
+          "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751"
+        }
+      ]
+    }
+  ]
+}

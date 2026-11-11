@@ -3,6 +3,13 @@ import { dirname, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 
 const appAsset = /^Wose(?:-v?\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?)?-windows-x64\.(?:zip|exe)$/;
+// Fixed launch cohort. Do not advance this when bumping application versions.
+export const FREE_LAUNCH_RELEASE = 'v1.0.0';
+function stableVersion(tag) {
+  const match = /^v(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$/.exec(tag ?? '');
+  if (!match) return null;
+  return match.slice(1).map(BigInt);
+}
 
 function validateRepository(repository) {
   if (typeof repository !== 'string' || !/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(repository)) {
@@ -25,16 +32,24 @@ function validateReleases(releases) {
   }
 }
 
-export function summarizeReleases(releases, generatedAt, repository) {
+export function summarizeReleases(releases, generatedAt, repository, { fromRelease } = {}) {
   validateRepository(repository);
   if (typeof generatedAt !== 'string' || !Number.isFinite(Date.parse(generatedAt)) ||
       new Date(generatedAt).toISOString() !== generatedAt) {
     throw new Error('generatedAt must be an ISO UTC timestamp');
   }
   validateReleases(releases);
+  const minimum = fromRelease === undefined ? null : stableVersion(fromRelease);
+  if (fromRelease !== undefined && !minimum) throw new Error('Invalid first release');
   let appDownloads = 0;
   for (const release of releases) {
     if (release.draft) continue;
+    if (minimum) {
+      const version = stableVersion(release.tag_name);
+      if (!version || release.prerelease === true) continue;
+      const firstDifferent = version.findIndex((part, i) => part !== minimum[i]);
+      if (firstDifferent >= 0 && version[firstDifferent] < minimum[firstDifferent]) continue;
+    }
     for (const asset of release.assets) {
       if (!appAsset.test(asset.name)) continue;
       appDownloads += asset.download_count;
@@ -48,6 +63,7 @@ export function summarizeReleases(releases, generatedAt, repository) {
       repository,
       url: `https://github.com/${repository}/releases`,
       metric: 'GitHub release asset download_count',
+      ...(fromRelease === undefined ? {} : { fromRelease }),
     },
     appDownloads,
   };
@@ -104,7 +120,7 @@ async function main(args) {
   }
   if (!options['--repo'] || !options['--output']) throw new Error('Both --repo and --output are required');
   const releases = await fetchReleases(options['--repo']);
-  const stats = summarizeReleases(releases, new Date().toISOString(), options['--repo']);
+  const stats = summarizeReleases(releases, new Date().toISOString(), options['--repo'], { fromRelease: FREE_LAUNCH_RELEASE });
   const output = resolve(options['--output']);
   const temporary = `${output}.${process.pid}.tmp`;
   await mkdir(dirname(output), { recursive: true });
