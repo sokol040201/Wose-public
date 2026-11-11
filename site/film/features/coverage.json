@@ -44,7 +44,7 @@
       "file": "focus.mp4",
       "poster": "focus.png",
       "rendered": true,
-      "sizeBytes": 84244
+      "sizeBytes": 84142
     },
     {
       "id": "day",
@@ -61,7 +61,7 @@
       "file": "day.mp4",
       "poster": "day.png",
       "rendered": true,
-      "sizeBytes": 91264
+      "sizeBytes": 91077
     },
     {
       "id": "wellness",
@@ -78,7 +78,7 @@
       "file": "wellness.mp4",
       "poster": "wellness.png",
       "rendered": true,
-      "sizeBytes": 82810
+      "sizeBytes": 83284
     },
     {
       "id": "shelf",
@@ -95,7 +95,7 @@
       "file": "shelf.mp4",
       "poster": "shelf.png",
       "rendered": true,
-      "sizeBytes": 225718
+      "sizeBytes": 225154
     },
     {
       "id": "ai-usage",
@@ -130,7 +130,7 @@
       "file": "agents.mp4",
       "poster": "agents.png",
       "rendered": true,
-      "sizeBytes": 74926
+      "sizeBytes": 75148
     },
     {
       "id": "mixer",
@@ -213,7 +213,7 @@
       "file": "appearance.mp4",
       "poster": "appearance.png",
       "rendered": true,
-      "sizeBytes": 651294
+      "sizeBytes": 651099
     },
     {
       "id": "settings",
@@ -229,7 +229,7 @@
       "file": "settings.mp4",
       "poster": "settings.png",
       "rendered": true,
-      "sizeBytes": 791534
+      "sizeBytes": 789308
     },
     {
       "id": "bluetooth",
@@ -262,7 +262,7 @@
       "file": "profiles.mp4",
       "poster": "profiles.png",
       "rendered": true,
-      "sizeBytes": 661956
+      "sizeBytes": 781678
     },
     {
       "id": "updates",
@@ -279,9 +279,9 @@
       "file": "updates.mp4",
       "poster": "updates.png",
       "rendered": true,
-      "sizeBytes": 728346
+      "sizeBytes": 732805
     }
   ],
-  "nativeAppVersion": "0.9.10",
-  "revision": "2026-11-10-settings-polish-v2"
+  "nativeAppVersion": "0.9.11",
+  "revision": "2026-11-11-pro-previews-v1"
 }

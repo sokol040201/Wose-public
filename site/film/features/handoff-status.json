@@ -1,6 +1,6 @@
 {
-  "version": "0.9.10",
-  "revision": "2026-11-10-settings-polish-v2",
+  "version": "0.9.11",
+  "revision": "2026-11-11-pro-previews-v1",
   "ready": [
     "music",
     "focus",
@@ -23,5 +23,5 @@
   "heroReady": true,
   "all16Native": true,
   "viewports": "viewports.json",
-  "heroSha256": "82127a9bca4078d3a2790b48a0d670a208a097bfc1957861b24fdf3b37a0267e"
+  "heroSha256": "7f27ba909190249519f4967ea0aed91859783d7ed0cfb25b5528d784dd9808ef"
 }
